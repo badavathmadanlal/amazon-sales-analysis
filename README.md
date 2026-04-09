@@ -39,8 +39,4 @@ Key Insights
 * Technology category contributes significantly to revenue
 * Certain sub-categories generate high sales but low profit
 * Seasonal trends impact overall sales distribution
-## ⭐ Acknowledgment
-
-This project is created for learning and portfolio purposes to demonstrate data analysis and visualization skills.
-
----
+  
