@@ -1,14 +1,12 @@
 # 📊 Amazon Sales Analysis Dashboard
 
-> ### "Turning raw sales data into business intelligence with Python, SQL & Power BI."
+> **Transforming raw Amazon sales data into actionable business insights using Python, SQL, and Power BI.**
 
 <p align="center">
 
-![Status](https://img.shields.io/badge/Status-Completed-3DDC84?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)
-![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
+![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi)
 ![SQL](https://img.shields.io/badge/SQL-Analysis-336791?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
 </p>
 
@@ -16,222 +14,182 @@
 
 # 🚀 Overview
 
-<div align="center">
+Amazon Sales Analysis is a business intelligence project focused on analyzing sales performance using **Python**, **SQL**, and **Power BI**. The project transforms raw sales data into interactive dashboards that help identify trends, monitor KPIs, evaluate product performance, and support data-driven business decisions.
 
-```text
-                   ┌───────────────────────────────┐
-                   │      AMAZON SALES DATA        │
-                   └──────────────┬────────────────┘
-                                  │
-                                  ▼
-                     ┌────────────────────────┐
-                     │   Data Cleaning        │
-                     │ Pandas • NumPy • SQL   │
-                     └─────────────┬──────────┘
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │ Exploratory Analysis   │
-                     │ Matplotlib • Seaborn   │
-                     └─────────────┬──────────┘
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │ Interactive Dashboard  │
-                     │      Power BI          │
-                     └─────────────┬──────────┘
-                                   │
-                                   ▼
-                     ┌────────────────────────┐
-                     │ Business Insights      │
-                     │ Revenue • Profit • KPI │
-                     └────────────────────────┘
-```
+# 🎯 Project Objectives
 
-</div>
+- Analyze Amazon sales performance.
+- Identify top-performing products and categories.
+- Track revenue and profit trends.
+- Compare regional sales performance.
+- Build an interactive business dashboard.
+- Generate actionable business insights.
 
 ---
 
-# ⚡ Project Features
+# ✨ Features
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│ 📈 Sales Analytics                                          │
-├─────────────────────────────────────────────────────────────┤
-│ ✓ Total Sales                                               │
-│ ✓ Revenue Trends                                            │
-│ ✓ Monthly Performance                                       │
-│ ✓ Profit Analysis                                           │
-└─────────────────────────────────────────────────────────────┘
+| Module | Description |
+|---------|-------------|
+| 📈 Sales Analysis | Analyze sales trends across different periods |
+| 💰 Revenue Analysis | Evaluate total sales and profit performance |
+| 📦 Product Analysis | Identify best-selling products and categories |
+| 🌍 Regional Analysis | Compare sales across different regions |
+| 📊 Interactive Dashboard | Dynamic filters, slicers, and KPI cards |
+| 📉 Data Visualization | Interactive charts for business insights |
 
-┌─────────────────────────────────────────────────────────────┐
-│ 📦 Product Analysis                                         │
-├─────────────────────────────────────────────────────────────┤
-│ ✓ Best Selling Products                                     │
-│ ✓ Product Categories                                        │
-│ ✓ Profit Margin                                             │
-│ ✓ Inventory Insights                                        │
-└─────────────────────────────────────────────────────────────┘
+---
 
-┌─────────────────────────────────────────────────────────────┐
-│ 🌍 Regional Analysis                                        │
-├─────────────────────────────────────────────────────────────┤
-│ ✓ State-wise Sales                                          │
-│ ✓ City-wise Revenue                                         │
-│ ✓ Regional Comparison                                       │
-└─────────────────────────────────────────────────────────────┘
-```
+# 📊 Key Performance Indicators (KPIs)
+
+| KPI | Description |
+|-----|-------------|
+| 💰 Total Sales | Overall revenue generated |
+| 📈 Total Profit | Total profit earned |
+| 📦 Total Orders | Number of customer orders |
+| 🛒 Average Order Value | Average revenue per order |
+| 🏆 Top Product | Highest revenue-generating product |
+| ⭐ Top Category | Best-performing product category |
+| 🌍 Best Region | Region contributing highest sales |
 
 ---
 
 # 🛠 Technology Stack
 
-| Layer | Technology |
-|:------:|------------|
-| 🐍 Programming | Python |
-| 🧹 Data Cleaning | Pandas, NumPy |
-| 📊 Visualization | Matplotlib, Seaborn |
-| 🗄 Database | SQL |
-| 📈 Dashboard | Power BI |
-| 📓 IDE | Jupyter Notebook |
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Data Visualization | Matplotlib, Seaborn |
+| Database Query | SQL |
+| Dashboard Development | Power BI |
+| Development Environment | Jupyter Notebook |
 
 ---
 
-# 🏗 Project Architecture
+# 📂 Project Structure
 
 ```text
-                     AMAZON SALES ANALYSIS
-
-                ┌───────────────────────────┐
-                │    Raw Amazon Dataset     │
-                └────────────┬──────────────┘
-                             │
-                ┌────────────▼──────────────┐
-                │      Data Cleaning        │
-                │ Remove Null Values        │
-                │ Data Formatting           │
-                └────────────┬──────────────┘
-                             │
-                ┌────────────▼──────────────┐
-                │ Exploratory Data Analysis │
-                │ Statistical Insights      │
-                └────────────┬──────────────┘
-                             │
-                ┌────────────▼──────────────┐
-                │ SQL Query Analysis        │
-                │ KPI Generation            │
-                └────────────┬──────────────┘
-                             │
-                ┌────────────▼──────────────┐
-                │ Power BI Dashboard        │
-                │ Interactive Reports       │
-                └────────────┬──────────────┘
-                             │
-                ┌────────────▼──────────────┐
-                │ Business Decisions        │
-                └───────────────────────────┘
-```
-
----
-
-# 📂 Folder Structure
-
-```text
-📦 amazon-sales-analysis
+amazon-sales-analysis
 │
-├── 📂 Data
-│   ├── Raw Dataset.csv
-│   └── Clean Dataset.csv
+├── data/
+│   ├── raw_data.csv
+│   └── cleaned_data.csv
 │
-├── 📂 Notebooks
-│   ├── Data Cleaning.ipynb
-│   ├── EDA.ipynb
-│   └── Sales Analysis.ipynb
+├── notebook/
+│   ├── data_cleaning.ipynb
+│   ├── exploratory_analysis.ipynb
+│   └── visualization.ipynb
 │
-├── 📂 SQL
-│   └── Queries.sql
+├── dashboard/
+│   └── Amazon Sales Dashboard.pbix
 │
-├── 📂 Dashboard
-│   └── Amazon Dashboard.pbix
+├── images/
+│   ├── dashboard.png
+│   ├── sales-analysis.png
+│   └── product-analysis.png
 │
-├── 📂 Images
-│   ├── Dashboard.png
-│   ├── Sales.png
-│   └── Profit.png
+├── sql/
+│   └── queries.sql
 │
 └── README.md
 ```
 
 ---
 
-# 📊 Dashboard Preview
+# 📋 Dataset Information
 
-<p align="center">
-
-<img src="images/dashboard.png" width="90%">
-
-</p>
-
----
-
-# 📌 Key Metrics
-
-| 📈 KPI | Value |
-|---------|-------|
-| 💰 Total Sales | Dynamic |
-| 📦 Orders | Dynamic |
-| 📊 Profit | Dynamic |
-| 🏆 Best Category | Dynamic |
-| ⭐ Top Product | Dynamic |
+| Property | Details |
+|-----------|---------|
+| Dataset | Amazon Sales Dataset |
+| Format | CSV |
+| Domain | E-Commerce |
+| Purpose | Sales & Business Analysis |
+| Data Cleaning | Python (Pandas) |
+| Visualization | Power BI |
 
 ---
 
-# 🔄 Workflow
+# 📈 Dashboard Components
+
+The Power BI dashboard includes:
+
+- KPI Cards
+- Monthly Sales Trend
+- Revenue Analysis
+- Profit Analysis
+- Product Category Analysis
+- Regional Sales Analysis
+- Interactive Filters
+- Slicers
+- Bar Charts
+- Line Charts
+- Pie Charts
+- Donut Charts
+
+---
+
+# 📌 Analysis Workflow
 
 ```text
-Dataset
-   │
-   ▼
-Cleaning
-   │
-   ▼
-EDA
-   │
-   ▼
+Raw Dataset
+     │
+     ▼
+Data Cleaning
+(Pandas & NumPy)
+     │
+     ▼
+Exploratory Data Analysis
+     │
+     ▼
 SQL Analysis
-   │
-   ▼
+     │
+     ▼
 Power BI Dashboard
-   │
-   ▼
+     │
+     ▼
 Business Insights
 ```
 
 ---
 
-# ⭐ Business Insights
+# 📊 Key Business Insights
 
-- 📈 Monthly Sales Trends
-- 💰 Revenue Growth
-- 📦 Product Performance
-- 🌍 Regional Analysis
-- 👥 Customer Behavior
-- 📊 Profit Analysis
+| Analysis | Insight |
+|-----------|---------|
+| 📈 Sales Trend | Identified monthly and yearly sales trends |
+| 💰 Revenue | Measured total revenue and profitability |
+| 📦 Products | Identified top-performing products |
+| ⭐ Categories | Compared category-wise sales performance |
+| 🌍 Regions | Evaluated regional sales contribution |
+| 📉 Performance | Discovered areas for business improvement |
+
+---
+---
+
+# 🔮 Future Improvements
+
+- Sales Forecasting using Machine Learning
+- Customer Segmentation
+- Automated Dashboard Refresh
+- Inventory Analysis
+- Profit Prediction Models
 
 ---
 
-# 👨‍💻 Developer
+# 👨‍💻 Author
 
 **Badavath Madanlal**
 
-- 🎓 B.Tech CSE, NIT Silchar
-- 💻 Data Analytics | SQL | Python | Power BI
-- 🌐 GitHub: https://github.com/badavathmadanlal
+🎓 B.Tech in Computer Science & Engineering  
+🏫 National Institute of Technology Silchar
+
+### Connect with Me
+
+- GitHub: https://github.com/badavathmadanlal
+- LinkedIn: *https://www.linkedin.com/in/badavathmadanlal/*
 
 ---
 
-<p align="center">
-
-### ⭐ Star this repository if you found it useful!
-
-</p>
+# ⭐ Support
+If you found this project helpful, consider giving it a **⭐ Star** on GitHub.
